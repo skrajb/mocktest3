@@ -390,9 +390,7 @@ document.getElementById("typed_text").addEventListener("keydown", (e) => {
 
             // Update live results
             updateLiveResults();
-        } else {
-            alert("Please type at least 90% of the words in the chunk before pressing Enter.");
-        }
+        } 
     }
 });
 
