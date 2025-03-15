@@ -111,7 +111,9 @@ const startTimer = () => {
                 clearInterval(timer);
                 timer = null;
                 testCompleted = true;
-                handleTestCompletion(); // Handle test completion
+           
+		    countResults(); // Call the counting function
+        showResults();x	
             }
         }, 1000);
     }
