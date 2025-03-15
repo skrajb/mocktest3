@@ -113,7 +113,7 @@ const startTimer = () => {
                 testCompleted = true;
            
 		    countResults(); // Call the counting function
-        showResults();x	
+        showResults();
             }
         }, 1000);
     }
