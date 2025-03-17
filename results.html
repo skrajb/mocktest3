@@ -258,7 +258,7 @@
             document.getElementById('results').innerHTML = resultsHTML;
 
             if (((((correctChars + correctCount + wrongChars + wrongCount) / 5) / (600 / 60)).toFixed(1)) >= 30 && accuracy >= 92 && wrongCount <= 24) {
-                document.getElementById('congratulations').innerHTML = `<h2>Congratulations! You passed! 🎉</h2><canvas id="confettiCanvas"> </canvas>`;
+                document.getElementById('congratulations').innerHTML = `<h2>Congratulations! You passed! 🎉`;
             } else {
                 document.getElementById('congratulations').innerHTML = "<h3>Sorry, you failed. Try again! 😞</h3>";
             }
