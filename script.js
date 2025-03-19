@@ -59,7 +59,7 @@ document.addEventListener('keydown', function(event) {
         event.preventDefault();
     }
     // Disable Ctrl + C
-    if (event.ctrlKey && event.key === 'c') {
+    if (event.ctrlKey && event.key === '') {
         event.preventDefault();
     }
 
